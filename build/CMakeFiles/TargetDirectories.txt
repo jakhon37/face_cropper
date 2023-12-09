@@ -1,0 +1,3 @@
+/home/jakhon37/myspace/CPP/c++WithGPT/faceCropApp/build/CMakeFiles/face_crop.dir
+/home/jakhon37/myspace/CPP/c++WithGPT/faceCropApp/build/CMakeFiles/edit_cache.dir
+/home/jakhon37/myspace/CPP/c++WithGPT/faceCropApp/build/CMakeFiles/rebuild_cache.dir

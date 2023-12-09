@@ -1,0 +1,63 @@
+
+INSTALL LIBS 
+
+    sudo apt-get update
+    sudo apt-get install libopencv-dev
+
+    sudo apt-get install opencv-data
+
+    sudo apt-get install build-essential cmake libgtk-3-dev libboost-all-dev
+
+    sudo apt-get install libdlib-dev
+
+
+    sudo apt-get update
+
+
+CODING
+    ...
+
+FOLDER STRUCTURE
+
+    apps/
+        build/
+            CMakeFiles
+                ...
+            cmake_install.cmake
+            ...
+        assets/
+            out
+            d.jpg
+            dd.jpg
+            ...
+        CMakeLists.txt
+        face_crop.cpp
+        utils.cpp
+        utils.h
+                    
+
+EXUCUTE CODE
+
+    option1: 
+        g++ -o face_crop face_crop.cpp utils.cpp `pkg-config --cflags --libs opencv4` -ldlib -lblas -llapack
+
+    option2: 
+        cmake: 
+            create  CMakeLists.txt 
+                iside CMakeLists.txt:
+                    cmake_minimum_required(VERSION 3.10)
+                    project(FaceCrop)
+
+                    set(CMAKE_CXX_STANDARD 17)
+
+                    find_package(OpenCV REQUIRED)
+                    include_directories(${OpenCV_INCLUDE_DIRS})
+
+                    add_executable(face_crop face_crop.cpp utils.cpp)
+                    target_link_libraries(face_crop ${OpenCV_LIBS} dlib blas lapack)
+
+            mkdir build && cd build
+            cmake ..
+            cd ..
+            cmake --build ./build
+            ./build/face_crop
