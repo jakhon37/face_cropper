@@ -4,5 +4,6 @@
 
 ## INPUT: 
 ###  folder of images with people faces 
+
 ## OUPUT:
 ###  folder of cropped face images 
