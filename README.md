@@ -4,7 +4,7 @@
 
 ### INPUT:
 folder of images with people faces 
-### OUPUT:
+### OUTPUT:
 folder of cropped face images 
 
 ### install:
