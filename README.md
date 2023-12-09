@@ -2,10 +2,10 @@
  based on dlib C++ library 
  data preparation for training 
 
-## INPUT 
+### INPUT 
 folder of images with people faces 
-## OUPUT
+### OUPUT
 folder of cropped face images 
 
-## install
+### install
 you can find a detailed guidline in << run.txt >>
