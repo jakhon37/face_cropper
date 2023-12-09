@@ -7,4 +7,4 @@
 ## OUPUT: folder of cropped face images 
 
 ## install: 
-you can faind a detailed guidline in <run.txt>
+you can find a detailed guidline in << run.txt >>
