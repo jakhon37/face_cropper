@@ -17,24 +17,6 @@ INSTALL LIBS
 CODING
     ...
 
-FOLDER STRUCTURE
-
-    apps/
-        build/
-            CMakeFiles
-                ...
-            cmake_install.cmake
-            ...
-        assets/
-            out
-            d.jpg
-            dd.jpg
-            ...
-        CMakeLists.txt
-        face_crop.cpp
-        utils.cpp
-        utils.h
-                    
 
 EXUCUTE CODE
 
@@ -61,3 +43,24 @@ EXUCUTE CODE
             cd ..
             cmake --build ./build
             ./build/face_crop
+
+
+
+FOLDER STRUCTURE
+
+    apps/
+        build/
+            CMakeFiles
+                ...
+            cmake_install.cmake
+            ...
+        assets/
+            out
+            d.jpg
+            dd.jpg
+            ...
+        CMakeLists.txt
+        face_crop.cpp
+        utils.cpp
+        utils.h
+                    
