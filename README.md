@@ -3,7 +3,7 @@
  data preparation for training 
 
 ### INPUT:
-folder of images with people faces 
+folder path containing images
 ### OUTPUT:
 folder of cropped face images 
 
